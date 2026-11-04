@@ -1,0 +1,174 @@
+<!doctype html>
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#0c0d10" name="theme-color"/><meta content="Formación de Diego Baron Fajardo en la Universidad Libre, proyectos tecnológicos y arquitectura de computadores: RISC, CISC y medios de almacenamiento." name="description"/><title>Formación y proyectos | Diego Baron Fajardo</title><link href="style.css" rel="stylesheet"/><script defer="" src="script.js"></script></head><body><a class="skip" href="#contenido">Saltar al contenido</a><header class="site-header"><div class="wrap nav-wrap"><a aria-label="Diego Baron, inicio" class="brand" href="index.html">DIEGO<b>.</b><small>BARON FAJARDO</small></a><button aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menú" class="nav-toggle" type="button">☰ Menú</button><nav aria-label="Navegación principal" class="nav" id="primary-nav"><a href="index.html">Inicio</a><a href="sobre-mi.html">Sobre mí</a><a aria-current="page" href="vida-academica.html">Formación y proyectos</a><a href="contacto.html">Contacto</a></nav></div></header><main id="contenido">
+<section class="page-top"><div class="wrap"><div class="eyebrow">02 / FORMACIÓN Y PROYECTOS</div><h1>Lo que estudio y <span class="accent">lo que construyo.</span></h1><p>Aquí reúno mi proceso como estudiante de Ingeniería de Sistemas y los proyectos con los que he convertido ideas, clases y trabajo en equipo en resultados reales.</p><nav aria-label="Explorar formación y proyectos" class="academic-jump-links">
+<a href="#formacion">Mi formación</a><a href="#arquitectura">Arquitectura de computadores</a><a href="#presentacion">Mi presentación</a><a href="#proyectos">Proyectos destacados</a>
+</nav></div></section>
+<section class="section-tight" id="formacion"><div class="wrap academic-feature"><div class="academic-photo"><img alt="Presentación académica de CLARP durante una jornada de proyectos de la Universidad Libre" height="1280" src="images/vida-academica.jpg" width="960"/></div><div><div class="eyebrow">UNIVERSIDAD LIBRE</div><h2>Del concepto al prototipo.</h2><p>Mi formación reúne programación, matemáticas, lógica computacional, electrónica y arquitectura de computadores. Cada área me ayuda a entender mejor la tecnología, desde las instrucciones que ejecuta un procesador hasta las soluciones que puedo construir con código.</p><p>Me gusta que los trabajos universitarios nos permitan experimentar, presentar nuestros resultados y aprender tanto de los aciertos como de los errores.</p><a class="btn ghost" href="#proyectos">Ver la sección completa ↗</a></div></div></section>
+<section class="section section-muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">ÁREAS DE ESTUDIO</div><h2>Las bases que me ayudan a crear.</h2></div></div><div class="passion-grid academic-grid"><article><span class="passion-no">01</span><h3>Programación</h3><p>Lógica, desarrollo de software y estructuras de datos con Java y Python: herramientas que me enseñan a pensar soluciones y convertirlas en código.</p></article><article><span class="passion-no">02</span><h3>Matemáticas y cálculo</h3><p>Más que números, son una forma de entrenar el análisis, modelar problemas y entender con mayor profundidad cómo abordar retos complejos.</p></article><article><span class="passion-no">03</span><h3>Electrónica</h3><p>Sensores, Arduino y microcontroladores me han permitido descubrir cómo el software puede dialogar con el mundo físico y convertirse en prototipo.</p></article></div></div></section>
+<section aria-labelledby="architecture-title" class="section architecture-section" id="arquitectura">
+<div class="wrap">
+<div class="arch-intro">
+<div>
+<div class="eyebrow">03 / ARQUITECTURA DE COMPUTADORES</div>
+<h2 id="architecture-title">Entender lo que ocurre <span class="accent">dentro del procesador.</span></h2>
+</div>
+<div class="arch-intro-aside"><span class="arch-index">RISC ↔ CISC</span>
+<p>En esta área he aprendido a mirar más allá del código: qué instrucciones reconoce una CPU, cómo se procesan y por qué dos procesadores pueden realizar la misma tarea de maneras distintas. RISC y CISC son dos enfoques importantes para entenderlo.</p></div>
+</div>
+<div class="arch-concepts">
+<article class="arch-concept risc">
+<div class="arch-concept-top"><span class="arch-concept-number">01 / CONJUNTO REDUCIDO</span><span class="arch-concept-pill">RISC</span></div>
+<h3>Instrucciones simples, ejecución organizada.</h3>
+<p><strong>RISC</strong> (<em>Reduced Instruction Set Computer</em>) parte de una idea: usar instrucciones relativamente simples y regulares, fáciles de decodificar, y combinarlas para resolver operaciones más grandes. No significa que el procesador tenga necesariamente pocas instrucciones.</p>
+<p>En diseños como <strong>RISC-V</strong>, las operaciones aritméticas trabajan principalmente con registros y la memoria se consulta mediante instrucciones específicas de carga (<em>load</em>) y almacenamiento (<em>store</em>). La familia <strong>Arm</strong> también se asocia a diseños RISC.</p>
+<div aria-label="Ejemplo conceptual de una operación RISC: cargar, operar y guardar" class="arch-sequence">
+<span>CARGAR</span><span aria-hidden="true">→</span><span>OPERAR</span><span aria-hidden="true">→</span><span>GUARDAR</span>
+</div>
+</article>
+<article class="arch-concept cisc">
+<div class="arch-concept-top"><span class="arch-concept-number">02 / CONJUNTO COMPLEJO</span><span class="arch-concept-pill">CISC</span></div>
+<h3>Instrucciones más expresivas y variadas.</h3>
+<p><strong>CISC</strong> (<em>Complex Instruction Set Computer</em>) emplea un repertorio de instrucciones más diverso: algunas permiten combinar operaciones y accesos a memoria en una misma instrucción visible para el programador.</p>
+<p>La familia <strong>x86/x86-64</strong> es el ejemplo más conocido. En muchos procesadores x86 actuales, las instrucciones se decodifican internamente en operaciones más pequeñas, llamadas <em>microoperaciones</em>, antes de ejecutarse.</p>
+<div aria-label="Ejemplo conceptual CISC: una instrucción puede realizar varias operaciones internas" class="arch-sequence arch-sequence-cisc">
+<span>INSTRUCCIÓN COMPLEJA</span><span aria-hidden="true">→</span><span>VARIOS PASOS INTERNOS</span>
+</div>
+</article>
+</div>
+<div class="arch-comparison">
+<div class="eyebrow">DIFERENCIAS EN PERSPECTIVA</div>
+<h3>Dos formas de diseñar, un mismo propósito.</h3>
+<div aria-label="Tabla comparativa RISC y CISC" class="arch-table-scroller" role="region" tabindex="0">
+<table class="arch-table"><thead><tr><th scope="col">Aspecto</th><th scope="col">RISC</th><th scope="col">CISC</th></tr></thead>
+<tbody>
+<tr><th scope="row">Filosofía</th><td>Instrucciones sencillas y regulares</td><td>Instrucciones más variadas y especializadas</td></tr>
+<tr><th scope="row">Formato habitual</th><td>Más uniforme; a menudo de longitud fija</td><td>Puede combinar instrucciones de longitud variable</td></tr>
+<tr><th scope="row">Acceso a memoria</th><td>Frecuentemente separado en carga/almacenamiento</td><td>Puede integrarse con otras operaciones</td></tr>
+<tr><th scope="row">Simplicidad de decodificación</th><td>Los formatos y operaciones regulares pueden facilitar la decodificación.</td><td>Algunas instrucciones requieren decodificación más elaborada.</td></tr><tr><th scope="row">Instrucciones por tarea</th><td>Una operación de alto nivel puede requerir varias instrucciones.</td><td>Una operación puede expresarse con menos instrucciones, según el caso.</td></tr><tr><th scope="row">Tamaño del programa</th><td>Depende del conjunto y sus extensiones; RISC-V puede incluir instrucciones comprimidas.</td><td>Puede favorecer código compacto gracias a instrucciones de longitud variable.</td></tr><tr><th scope="row">Implementación moderna</th><td>Puede incluir pipelines profundos, ejecución fuera de orden y otras optimizaciones.</td><td>Puede traducir instrucciones complejas a microoperaciones internas para ejecutarlas eficientemente.</td></tr><tr><th scope="row">Eficiencia energética</th><td>Puede facilitar diseños sencillos, aunque el consumo real depende del procesador completo.</td><td>También puede alcanzar gran eficiencia según el diseño, el proceso de fabricación y la carga de trabajo.</td></tr><tr><th scope="row">Ejemplos</th><td>ARM y RISC-V</td><td>x86 y x86-64</td></tr>
+</tbody></table>
+</div>
+<p class="arch-nuance">Lo que más me interesa de esta comparación es entender que no existe un ganador absoluto: en los procesadores modernos, el rendimiento y el consumo dependen también de la implementación, la memoria, el software y las optimizaciones.</p>
+</div>
+
+<div class="arch-learning-path">
+<div class="arch-extra-heading">
+<div class="eyebrow">PRIMERO, LO ESENCIAL</div>
+<h3>El lenguaje entre el software y el hardware.</h3>
+<p>Para entender la diferencia, primero distingo entre <strong>arquitectura del conjunto de instrucciones (ISA)</strong> y <strong>microarquitectura</strong>. La ISA define qué instrucciones puede utilizar un programa, sus registros y su comportamiento. La microarquitectura explica cómo un procesador físico ejecuta esas instrucciones: unidades internas, caché, predicción de saltos o ejecución en paralelo.</p>
+</div>
+<div class="arch-definitions">
+<div><span class="arch-idea-num">01 / ISA</span><h4>Qué puede hacer</h4><p>Las instrucciones disponibles, su codificación, los registros visibles y las reglas que sigue el software.</p></div>
+<div><span class="arch-idea-num">02 / CPU</span><h4>Cómo lo lleva a cabo</h4><p>El diseño interno que busca, interpreta y ejecuta instrucciones mediante circuitos y optimizaciones.</p></div>
+<div><span class="arch-idea-num">03 / PROGRAMA</span><h4>Por qué importa</h4><p>La elección de la ISA influye en las herramientas y la compatibilidad; la velocidad final también depende del chip y el programa.</p></div>
+</div>
+</div>
+<div aria-labelledby="arch-example-title" class="arch-example">
+<div class="arch-extra-heading">
+<div class="eyebrow">EJEMPLO PRÁCTICO / ENSAMBLADOR</div>
+<h3 id="arch-example-title">Una misma tarea, dos formas de expresarla.</h3>
+<p>Imaginemos que queremos <strong>sumar uno a un número guardado en memoria</strong>. El ejemplo es ilustrativo y muestra instrucciones visibles para el programador; no compara directamente la velocidad ni el número real de pasos internos.</p>
+</div>
+<div class="arch-code-grid">
+<article class="arch-code-card arch-code-risc">
+<div class="arch-code-header"><span>RISC-V · estilo RISC</span><span>3 instrucciones</span></div>
+<pre><code><span class="comment"># a0 contiene la dirección del dato</span>
+lw   t0, 0(a0)    <span class="comment"># cargar a registro</span>
+addi t0, t0, 1    <span class="comment"># sumar 1</span>
+sw   t0, 0(a0)    <span class="comment"># guardar en memoria</span></code></pre>
+<p>Las operaciones se organizan en <strong>cargar → modificar → guardar</strong>. Los cálculos se realizan en registros.</p>
+</article>
+<article class="arch-code-card arch-code-cisc">
+<div class="arch-code-header"><span>x86 · estilo CISC</span><span>1 instrucción</span></div>
+<pre><code><span class="comment">; RAX contiene la dirección del dato</span>
+add DWORD PTR [rax], 1
+<span class="comment">; lee, suma y escribe en memoria</span></code></pre>
+<p>Una instrucción <strong>puede combinar</strong> acceso a memoria y operación aritmética; por dentro, la CPU puede dividirla en varios pasos.</p>
+</article>
+</div>
+<p class="arch-example-note">Nota: ambos fragmentos suponen datos enteros de 32 bits y direcciones válidas. No incluyen control de concurrencia ni garantizan el mismo comportamiento atómico frente a otros hilos.</p>
+</div>
+<div aria-labelledby="arch-steps-title" class="arch-steps">
+<div class="eyebrow">CÓMO SE PROCESAN LAS INSTRUCCIONES</div>
+<h3 id="arch-steps-title">Del código a la ejecución.</h3>
+<p>Un modelo introductorio del procesamiento de instrucciones puede explicarse en cinco etapas. Los procesadores actuales pueden combinarlas, reorganizarlas o ejecutar varias instrucciones simultáneamente.</p>
+<ol class="arch-step-grid">
+<li><span>01</span><strong>Búsqueda</strong><small>La CPU obtiene una instrucción desde memoria o caché.</small></li>
+<li><span>02</span><strong>Decodificación</strong><small>Identifica la operación y los operandos.</small></li>
+<li><span>03</span><strong>Ejecución</strong><small>Realiza el cálculo o evalúa la operación.</small></li>
+<li><span>04</span><strong>Memoria</strong><small>Accede a datos cuando la instrucción lo necesita.</small></li>
+<li><span>05</span><strong>Resultado</strong><small>Actualiza registros u otros estados visibles.</small></li>
+</ol>
+</div>
+<div aria-labelledby="arch-strengths-title" class="arch-strengths">
+<div class="arch-extra-heading">
+<div class="eyebrow">VENTAJAS Y DESAFÍOS</div>
+<h3 id="arch-strengths-title">¿Qué aporta cada enfoque?</h3>
+<p>Las características tradicionales ayudan a estudiar sus diferencias, aunque no deben confundirse con reglas absolutas sobre todos los chips del mercado.</p>
+</div>
+<div class="arch-strength-grid">
+<article><span class="arch-label arch-label-risc">RISC</span><h4>Fortalezas habituales</h4><ul><li>Instrucciones regulares que pueden simplificar el diseño y la decodificación.</li><li>Buen encaje con pipelines y optimizaciones de ejecución.</li><li>Diseños escalables, desde sistemas embebidos hasta equipos de alto rendimiento.</li></ul><h4>Desafíos</h4><p>Algunas tareas requieren más instrucciones visibles; la densidad de código y las herramientas disponibles varían según la ISA y sus extensiones.</p></article>
+<article><span class="arch-label arch-label-cisc">CISC</span><h4>Fortalezas habituales</h4><ul><li>Instrucciones expresivas que pueden condensar operaciones frecuentes.</li><li>Potencial de buena densidad de código.</li><li>Amplio legado de software y compatibilidad en el ecosistema x86.</li></ul><h4>Desafíos</h4><p>El repertorio puede exigir decodificadores más complejos; mantener compatibilidad histórica añade exigencias de diseño.</p></article>
+</div>
+</div>
+<div aria-labelledby="arch-realworld-title" class="arch-realworld">
+<div class="eyebrow">APLICACIONES EN LA VIDA REAL</div>
+<h3 id="arch-realworld-title">¿Dónde aparecen RISC y CISC?</h3>
+<div class="arch-use-grid">
+<article><div aria-hidden="true" class="arch-use-icon">⌁</div><h4>Dispositivos móviles</h4><p>Muchos teléfonos y tabletas usan procesadores basados en arquitecturas Arm, de tradición RISC.</p></article>
+<article><div aria-hidden="true" class="arch-use-icon">⌘</div><h4>PC y estaciones de trabajo</h4><p>x86-64 está muy extendida en computadores personales; también existen equipos de escritorio basados en Arm.</p></article>
+<article><div aria-hidden="true" class="arch-use-icon">▣</div><h4>Electrónica y sistemas embebidos</h4><p>RISC-V y Arm se utilizan en diversos controladores, dispositivos y proyectos de diseño de hardware.</p></article>
+</div>
+</div>
+<div class="arch-takeaway">
+<div><div class="eyebrow">MI APRENDIZAJE</div><h3>La pregunta no es solo cuál tiene menos instrucciones.</h3></div>
+<p>Me quedo con una idea fundamental: <strong>RISC y CISC son enfoques para definir instrucciones, no garantías de rapidez o ahorro de energía</strong>. Al analizar un procesador también debo considerar su microarquitectura, memorias, compilador, consumo, compatibilidad y la aplicación que ejecutará.</p>
+</div>
+<div aria-labelledby="arch-faq-title" class="arch-faq">
+<div class="eyebrow">PREGUNTAS FRECUENTES</div>
+<h3 id="arch-faq-title">Tres ideas que ayudan a no confundirse.</h3>
+<details><summary>¿RISC siempre es más rápido que CISC?</summary><p>No. La velocidad depende de muchos factores: diseño interno, frecuencia, memoria, compilador y tipo de carga de trabajo. La comparación entre familias no se resuelve solo con el número de instrucciones.</p></details>
+<details><summary>¿Todas las instrucciones RISC tienen el mismo tamaño?</summary><p>No necesariamente. Por ejemplo, RISC-V tiene instrucciones base de 32 bits, pero también dispone de una extensión comprimida con instrucciones de 16 bits.</p></details>
+<details><summary>¿Por qué un procesador x86 puede parecerse a uno RISC por dentro?</summary><p>Porque algunos procesadores x86 traducen instrucciones de su ISA a microoperaciones internas más simples. Lo que el programa ve no es necesariamente igual a la forma en que se ejecuta físicamente.</p></details>
+</div>
+<div class="arch-further-reading">
+<div class="eyebrow">FUENTES PARA PROFUNDIZAR</div>
+<p>Documentación técnica oficial que he tomado como referencia para ampliar este tema:</p>
+<ul>
+<li><a href="https://docs.riscv.org/reference/isa/v20260120/unpriv/rv32.html" rel="noopener noreferrer" target="_blank">RISC-V: conjunto base, registros, cargas y almacenamientos ↗</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/newsroom/tech101/client-computing/x86-architecture-foundation-of-modern-computing.html" rel="noopener noreferrer" target="_blank">Intel: introducción a la arquitectura x86 ↗</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html" rel="noopener noreferrer" target="_blank">Intel: manuales de arquitectura y programación IA-32 / Intel 64 ↗</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section aria-labelledby="presentation-title" class="section section-muted presentation-section" id="presentacion">
+<div class="wrap">
+<div class="presentation-heading"><div>
+<div class="eyebrow">TRABAJO UNIVERSITARIO / PRESENTACIÓN</div>
+<h2 id="presentation-title">Discos ópticos y <span class="accent">discos mecánicos.</span></h2>
+<p>En una exposición académica que preparé junto a Francisco Castro estudiamos la evolución de los medios de almacenamiento. Analizamos cómo funcionan los CD, DVD y Blu-ray, y cómo los discos duros HDD utilizan platos magnéticos y cabezales de lectura y escritura.</p>
+<p>La presentación también compara sus ventajas, limitaciones y usos frente a otras tecnologías como las unidades SSD. Es un trabajo complementario al estudio de la arquitectura y los componentes de un computador.</p>
+</div><div class="presentation-stat"><span class="presentation-stat-num">18</span><span>DIAPOSITIVAS</span><span>Material académico</span></div></div>
+<div class="presentation-card">
+<div class="presentation-preview"><img alt="Portada de la presentación Discos Ópticos y Discos Mecánicos, de Francisco Castro y Diego Barón, con imágenes de discos CD y un disco duro." height="941" loading="lazy" src="images/arquitectura-portada.jpg" width="1672"/></div>
+<div class="presentation-details">
+<div class="eyebrow">CONTENIDO DE LA PRESENTACIÓN</div><h3>La historia de cómo guardamos información.</h3>
+<p>Discos ópticos, funcionamiento de un lector láser, tipos de soportes, componentes de un HDD y diferencias entre HDD y SSD.</p>
+<div class="presentation-actions"><a class="btn primary" href="assets/discos-opticos-y-mecanicos.pdf" rel="noopener noreferrer" target="_blank">Abrir las 18 diapositivas ↗</a><a class="btn ghost" href="https://canva.link/0hdxeu7uxjcblm8" rel="noopener noreferrer" target="_blank">Ver presentación en Canva ↗</a></div>
+<p class="presentation-note">El PDF está incluido en este portafolio y puede abrirse aunque Canva requiera permisos de acceso.</p>
+</div>
+</div>
+<div aria-label="Visor de la presentación PDF" class="presentation-frame-wrap">
+<div class="presentation-frame-header"><span aria-hidden="true" class="presentation-viewer-dot"></span><strong>Vista de la presentación</strong><a href="assets/discos-opticos-y-mecanicos.pdf" rel="noopener noreferrer" target="_blank">Abrir PDF en otra pestaña ↗</a></div>
+<iframe class="presentation-frame" loading="lazy" src="assets/discos-opticos-y-mecanicos.pdf#view=FitH" title="Presentación completa de 18 diapositivas sobre discos ópticos y discos mecánicos">Tu navegador no admite la vista integrada. <a href="assets/discos-opticos-y-mecanicos.pdf">Abrir presentación PDF</a>.</iframe>
+<div class="presentation-mobile-help"><p>En algunos celulares, la vista integrada del PDF puede no estar disponible.</p><a class="mini-link" href="assets/discos-opticos-y-mecanicos.pdf">Ver las diapositivas en PDF ↗</a></div>
+</div>
+<p class="arch-sources">Para ampliar el tema RISC y CISC: <a href="https://www.arm.com/glossary/risc" rel="noopener noreferrer" target="_blank">conceptos de RISC (Arm)</a> y <a href="https://www.ibm.com/history/risc" rel="noopener noreferrer" target="_blank">historia y diferencias (IBM)</a>.</p>
+</div>
+</section>
+<section class="section"><div class="wrap academic-summary"><div class="eyebrow">LOS RETOS TAMBIÉN ENSEÑAN</div><h2>De la clase al proyecto.</h2><p>Lo que aprendo en la universidad toma forma cuando lo llevo a proyectos concretos. En ese proceso he fortalecido la investigación, el trabajo en equipo, la comunicación de ideas y la capacidad de iterar hasta encontrar una mejor solución.</p><a class="btn primary" href="#proyectos">Ver proyectos integrados ↗</a></div></section>
+<section class="section-tight" id="proyectos"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PROYECTOS DESTACADOS</div><h2>Ideas que llevé a la práctica.</h2><p>Tres proyectos nacidos en mi formación universitaria, donde he combinado software, análisis e interacción con hardware para resolver problemas reales.</p></div></div><article class="project-card reveal"><img alt="Fotografía del stand del proyecto CLARP con el afiche y la demostración en computador." class="project-poster" loading="lazy" src="images/clarp.jpg"/><div class="project-info"><div class="eyebrow">Proyecto académico</div><h2>CLARP</h2><p><strong>Campus Recycling &amp; Rewards App.</strong> Una experiencia digital que busca premiar la cultura del reciclaje en la universidad.</p><p class="detail"><strong>Objetivo.</strong> Desarrollar un sistema de ubicación de puntos de reciclaje, verificación de entregas mediante códigos QR o fotografías y acumulación de puntos canjeables por beneficios institucionales.</p><p class="detail"><strong>Aprendizajes.</strong> Aprendí a traducir un problema ambiental cotidiano en una solución centrada en usuarios y a pensar en mecanismos de validación y recompensas.</p><div class="tags"><span class="tag">Desarrollo web</span><span class="tag">Códigos QR</span><span class="tag">Verificación</span></div></div></article><article class="project-card reveal"><img alt="Fotografía del proyecto TejoTech UL presentado en la Jornada de Proyectos de la Universidad Libre." class="project-poster" loading="lazy" src="images/TejoTech.jpg"/><div class="project-info"><div class="eyebrow">Proyecto académico</div><h2>TejoTech UL</h2><p><strong>Visión por computador aplicada al tejo.</strong> Uso procesamiento de imágenes para analizar una partida y comparar distancias al objetivo.</p><p class="detail"><strong>Objetivo.</strong> Detectar colores y establecer cuál elemento está más cerca del objetivo para apoyar el análisis del juego.</p><p class="detail"><strong>Aprendizajes.</strong> Exploré cómo transformar imágenes en datos medibles, aplicar detección de color y conectar lógica de análisis con una interfaz web.</p><div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">OpenCV</span></div></div></article><article class="project-card reveal"><img alt="Póster del proyecto ElectronicSense con el bastón inteligente y los componentes electrónicos." class="project-poster" loading="lazy" src="images/ElectronicSense.jpg"/><div class="project-info"><div class="eyebrow">Proyecto académico</div><h2>ElectronicSense</h2><p><strong>Un bastón inteligente con sensores.</strong> Diseñé una propuesta de asistencia para detectar obstáculos cercanos con señales audibles.</p><p class="detail"><strong>Objetivo.</strong> Detectar obstáculos con un sensor ultrasónico HC-SR04 y generar alertas sonoras mediante Arduino.</p><p class="detail"><strong>Aprendizajes.</strong> Conecté programación con electrónica, adquisición de señales y pruebas de respuesta de un prototipo físico.</p><div class="tags"><span class="tag">Arduino</span><span class="tag">C++</span><span class="tag">HC-SR04</span></div></div></article></div></section></main><footer class="site-footer"><div class="wrap foot-inner"><div><a class="brand" href="index.html">DIEGO<b>.</b><small>BARON FAJARDO</small></a><p>Diseñado y desarrollado como portafolio académico personal. © 2026 Diego Fernando Baron Fajardo.</p><p class="footer-contact"><a href="mailto:diegof-baronf@unilibre.edu.co">diegof-baronf@unilibre.edu.co</a> <span aria-hidden="true">·</span> <a href="tel:+573106416701">310 641 6701</a></p></div><nav aria-label="Enlaces del pie" class="foot-links"><a href="sobre-mi.html">Mi historia</a><a href="vida-academica.html">Formación y proyectos</a><a href="contacto.html">Contacto</a></nav></div></footer></body></html>
